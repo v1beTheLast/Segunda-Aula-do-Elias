@@ -1,0 +1,38 @@
+using System;
+
+namespace Elias_Aula_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int idade = 18;
+            double precoproduto = 1.99;
+            char sexo = 'f';
+            string nome = "Elias";
+            bool ligado = true;
+
+            Console.WriteLine(idade);
+            Console.WriteLine(precoproduto);
+            Console.WriteLine(sexo);
+            Console.WriteLine(nome);
+            Console.WriteLine(ligado);
+
+            // Concatenar(sinal de +)
+
+            Console.WriteLine("Olá" + nome);
+
+            int x = 3;
+            int y = 2;
+            Console.WriteLine(x + y);
+
+            // Entrada de Dados em C#
+
+            Console.WriteLine("Digite o nome de usuário: ");
+
+            string usuName = Console.ReadLine();
+
+            Console.WriteLine("O nome de usuário é " + usuName);
+        }
+    }
+}
